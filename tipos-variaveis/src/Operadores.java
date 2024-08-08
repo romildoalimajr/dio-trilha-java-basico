@@ -8,7 +8,7 @@ public class Operadores {
             System.out.println("As duas condições são verdadeira");
         }
 
-        IF(condicao1 || condicao2){
+        if(condicao1 || condicao2){
             System.out.println("Uma das condições é verdadeira");
         }
 
