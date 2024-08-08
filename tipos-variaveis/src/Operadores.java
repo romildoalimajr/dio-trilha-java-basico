@@ -1,28 +1,32 @@
 public class Operadores {
     public static void main(String[] args) {
+
+        String nomeUm = "ROMILDO";
+        String nomeDois = new String("ROMILDO");
+
+        System.out.println(nomeUm == nomeDois);
+        System.out.println(nomeUm.equals(nomeDois));
         
-       int a, b;
+        int numero1 = 1;
+        int numero2 = 2;
 
-       a = 5;
-       b = 6;
+        if(numero1 < numero2){
+            System.out.println("a nossa condição é verdadeira");
+        }
 
-       String resultado = "";
-       
-       if(a==b){
-        resultado = "verdadeiro";
-       }else{
-        resultado = "falso";
-       }
+        boolean simNao = numero1 == numero2;
+        System.out.println("numeroUm é igual a numeroDois? " + simNao);
 
-       System.out.println(resultado);
+        simNao = numero1 != numero2;
+        System.out.println("numeroUm é diferente a numeroDois? " + simNao);
 
-       System.out.println("Operador ternário");
-       a = 6;
+        simNao = numero1 < numero2;
+        System.out.println("numeroUm é maior a numeroDois? " + simNao);
 
-       String resultado2 = a==b ? "verdadeiro" : "falso";
+        simNao = numero1 > numero2;
+        System.out.println("numeroUm é menor a numeroDois? " + simNao);
 
-       System.out.println(resultado2);
-       
 
     }
 }
+
