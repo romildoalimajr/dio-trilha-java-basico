@@ -1,23 +1,26 @@
 public class Operadores {
     public static void main(String[] args) {
-        //String nomeCompleto = "LINGUAGEM" + "JAVA";
-        //System.out.println(nomeCompleto);
+        
+       // repetição
+       int numero = 5;
+       //numero = numero + 2;
 
-        String concatenacao = "?";
+       System.out.println(numero ++);
 
-        concatenacao = 1+1+1+"1";
-        System.out.println(concatenacao);
+       System.out.println(numero);
 
-        concatenacao = 1+"1"+1+1;
-        System.out.println(concatenacao);
+       System.out.println(++numero);
 
-        concatenacao = 1+"1"+1+"1";
-        System.out.println(concatenacao);
+       System.out.println(numero --);
 
-        concatenacao = "1"+1+1+1;
-        System.out.println(concatenacao);
+       boolean variavel = true;
 
-        concatenacao = "1"+(1+1+1);
-        System.out.println(concatenacao);
+       System.out.println(variavel);
+       System.out.println(!variavel);
+       System.out.println(variavel);
+
+       variavel = !variavel;
+
+       System.out.println(variavel);
     }
 }
